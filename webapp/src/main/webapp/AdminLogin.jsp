@@ -87,7 +87,7 @@
 	</div>
 	
 	<div class="home">
-		<a href="viewbook">Books Available</a>
+		<a href="ViewBooks.jsp">Books Available</a>
 	</div>
 
 	<div class="home">

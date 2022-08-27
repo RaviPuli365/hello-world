@@ -77,7 +77,7 @@
 		<h1>Welcome to Online Book Store</h1>
 	</div>
 	<div class="home">
-		<a href="">Home</a>
+		<a href="index.jsp">Home</a>
 	</div>
 
 	<div class="home">
@@ -85,7 +85,7 @@
 	</div>
 	
 	<div class="home">
-		<a href="viewbook">Books Available</a>
+		<a href="ViewBooks.jsp">Books Available</a>
 	</div>
 
 	<div class="home">

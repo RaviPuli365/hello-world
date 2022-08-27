@@ -79,19 +79,19 @@
 	</div>
 	
 	<div class="home">
-		<a href="index.html">Home</a>
+		<a href="index.jsp">Home</a>
 	</div>
 
 	<div class="home">
-		<a href="index.html">Login</a>
+		<a href="index.jsp">Login</a>
 	</div>
 	
 	<div class="home">
-		<a href="viewbook">Books Available</a>
+		<a href="viewbook.jsp">Books Available</a>
 	</div>
 
 	<div class="home">
-		<a href="index.html">Logout</a>
+		<a href="index.jsp">Logout</a>
 	</div>
 	
 	<table class="tab brown hd" bgcolor="black">

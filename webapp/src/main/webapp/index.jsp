@@ -103,18 +103,18 @@
 	<table class="tab" border="0px solid black">
 		
 		<tr>
-			<td><a href="AdminLogin.html">Login As Admin</a></td>
+			<td><a href="AdminLogin.jsp">Login As Admin</a></td>
 		</tr>
 	</table>
 	<table class="tab" border="0px solid black">
 		
 		<tr>
-			<td><a href="UserLogin.html"> Login As<span> User</span> </a></td>
+			<td><a href="UserLogin.jsp"> Login As<span> User</span> </a></td>
 		</tr>
 	</table>
 	<table class="tab green">
 		<tr>
-			<td><a href="UserRegister.html">New user ! Register Here</a></td>
+			<td><a href="UserRegister.jsp">New user ! Register Here</a></td>
 		</tr>
 	</table>
 

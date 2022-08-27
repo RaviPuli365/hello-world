@@ -1,134 +1,122 @@
-<!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>Responsive Registaration Form</title>
-        <link rel="stylesheet" href="./responsiveRegistration.css">
-        <script type="text/javascript" lang="javascript" src="./responsiveRegistaration.js"></script>
-    </head>
-      
-   
-    <body>
-        <h1>Student Registaration Form</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-10">
-                    <label for="fname">First Name:</label>
-                </div>
-                <div class="col-90">
-                    <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="lname">Last Name:</label>
-                </div>
-                <div class="col-90">
-                    <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="email">Email:</label>
-                </div>
-                <div class="col-90">
-                    <input type="email" id="email" name="email" placeholder="it should contain @,.">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="mobile">Mobile:</label>
-                </div>
-                <div class="col-90">
-                    <input type="tel" id="mobile" name="mobile" placeholder="only 10 digits are allowed">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="gender" required>Gender:</label>
-                </div>
-                <div class="col-90">
-                    <input type="radio" id="male" name="gender" value="male"/>Male
-                    <input type="radio" id="female" name="gender" value="female"/>Female
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="dob">Date Of Birth:</label>
-                </div>
-                <div class="col-90">
-                    <input type="Date" id="dob" name="dob">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="address">Address:</label>
-                </div>
-                <div class="col-90">
-                    <textarea name="address" id="address" cols="30" rows="10"></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="city">City:</label>
-                </div>
-                <div class="col-90">
-                    <input type="text" id="city" name="city" maxlength="10">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="pincode">Area PIN:</label>
-                </div>
-                <div class="col-90">
-                    <input type="number" id="pin" name="pin" maxlength="6">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="state">State:</label>
-                </div>
-                <div class="col-90">
-                    <input type="text" id="state" name="state">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="qualification" required >Qualification:</label>
-                </div>
-                <div class="col-90">
-                    <select name="qualification" id="qualification">
-                        <option value=" ">Select Qualification:</option>
-                        <option value="Graduation">Graduation</option>
-                        <option value="BTech.">BTech.</option>
-                        <option value="MTech.">MTech.</option>
-                        <option value="MCA">MCA</option>
-                        <option value="BCA">BCA</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="specialization">Specialization:</label>
-                </div>
-                <div class="col-90">
-                    <input type="checkbox" class="specialization" id="cs" name="specialization[]" value="Computer Science">Computer Science<br/>
-                    <input type="checkbox" class="specialization" id="it" name="specialization[]" value="Information Technology">Information Technology<br/>
-                    <input type="checkbox" class="specialization" id="ca" name="specialization[]" value="Computer Architecture">Computer Architecture<br/>
-                    <input type="checkbox" class="specialization" id="tc" name="specialization[]" value="Tele Communication">Tele Communication<br/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-10">
-                    <label for="password">Password:</label>
-                </div>
-                <div class="col-90">
-                    <input type="password" id="password" name="password" maxlength="8">
-                </div>
-            </div>
-            <div class="row">
-                <input type="submit" value="Registered" onclick="SaveStudentDetails()">
-            </div>  
-        </div>  
-    </body>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Book Store</title>
+	<style>
+	*{
+		box-sizing: border-box;
+	}	
+	body
+	{
+		background-image: url("Photo.jpg");
+	}
+	#topmid{
+		border:0px solid black;
+		color:#FFFFFF;
+		text-align: center;
+		font-weight: bold;
+		margin-top: 0px;
+		padding-left: 30%;
+		font-style: oblique;
+		font-size:38px;
+	}
+	a:hover{
+		color:red;
+	}
+	a:link{
+		color: green;
+		text-decoration: none;
+	}
+	.tab{
+		border:1px black solid;
+		background-color: #FFE5CC;
+		margin-left: 48%;
+		width:450px;
+		color:green;
+		font-weight: bold;
+		font-style:normal;
+		text-align:center;
+		font-size: 22px;
+		margin-bottom:10px;
+		padding:10px;
+	}
+	.home{
+		border:1px black solid;
+		background-color: #ccffcc;
+		margin-left: 1%;
+		width:200px;
+		color:blue;
+		font-weight: bold;
+		font-style:italic;
+		text-align:center;
+		font-size: 25px;
+		margin-bottom:10px;
+		padding:10px;
+		float:left;
+		clear:both;
+	}
+	.yel{
+	color:yellow;
+	}
+	.red{
+		color:red;
+	}
+	.green{
+		color:green;
+	}
+	.hd{
+		font-size:25px;
+	}
+	.brown{
+		color:brown;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="topmid">
+		<h1>Welcome to Online Book Store</h1>
+	</div>
+	
+	<div class="home">
+		<a href="index.html">Home</a>
+	</div>
+
+	<div class="home">
+		<a href="index.html">Login</a>
+	</div>
+	
+	<div class="home">
+		<a href="viewbook">Books Available</a>
+	</div>
+
+	<div class="home">
+		<a href="index.html">Logout</a>
+	</div>
+	
+	<table class="tab brown hd" bgcolor="black">
+		<tr>
+			<td>Login or Signup Below</td>
+		</tr>
+	</table>
+
+	<table class="tab" border="0px solid black">
+		
+		<tr>
+			<td><a href="AdminLogin.html">Login As Admin</a></td>
+		</tr>
+	</table>
+	<table class="tab" border="0px solid black">
+		
+		<tr>
+			<td><a href="UserLogin.html"> Login As<span> User</span> </a></td>
+		</tr>
+	</table>
+	<table class="tab green">
+		<tr>
+			<td><a href="UserRegister.html">New user ! Register Here</a></td>
+		</tr>
+	</table>
+
+</body>
 </html>

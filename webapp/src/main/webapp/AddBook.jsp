@@ -78,7 +78,7 @@
 	</div>
 	
 	<div class="home">
-		<a href="adminlog">Home</a>
+		<a href="AdminLogin.jsp">Home</a>
 	</div>
 
 	<div class="home">
@@ -86,7 +86,7 @@
 	</div>
 	
 	<div class="home">
-		<a href="viewbook">Books Available</a>
+		<a href="ViewBook.jsp">Books Available</a>
 	</div>
 
 	<div class="home">
